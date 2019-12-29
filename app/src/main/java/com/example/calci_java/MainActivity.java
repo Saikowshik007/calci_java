@@ -244,7 +244,7 @@ public class MainActivity extends AppCompatActivity {
                 vb.vibrate(x);
             }
         });
-
+        getSupportActionBar().hide();
 
 
     }

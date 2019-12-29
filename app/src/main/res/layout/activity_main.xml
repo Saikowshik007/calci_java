@@ -14,10 +14,12 @@
         android:layout_alignParentBottom="true"
         android:layout_marginTop="0dp"
         android:layout_marginBottom="475dp"
+        android:background="@drawable/rounded_black"
         android:clickable="true"
         android:contentDescription="calculator"
         android:cursorVisible="true"
         android:maxLines="2"
+        android:textColor="@android:color/holo_orange_dark"
         android:textSize="50sp" />
 
     <LinearLayout
@@ -38,9 +40,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_black"
                 android:minWidth="80dp"
                 android:minHeight="80dp"
                 android:text="AC"
+                android:textColor="@android:color/background_light"
                 android:textSize="24sp" />
 
             <Button
@@ -48,9 +52,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_black"
                 android:minWidth="80dp"
                 android:minHeight="80dp"
                 android:text="Exit"
+                android:textColor="@android:color/background_light"
                 android:textSize="24sp" />
 
             <Button
@@ -58,9 +64,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_black"
                 android:minWidth="80dp"
                 android:minHeight="80dp"
                 android:text="%"
+                android:textColor="@android:color/background_light"
                 android:textSize="24sp" />
 
             <Button
@@ -68,9 +76,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_black"
                 android:minWidth="80dp"
                 android:minHeight="80dp"
                 android:text="^"
+                android:textColor="@android:color/holo_orange_dark"
                 android:textSize="24sp" />
         </LinearLayout>
 
@@ -87,9 +97,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_black"
                 android:minWidth="80dp"
                 android:minHeight="80dp"
                 android:text="("
+                android:textColor="@android:color/background_light"
                 android:textSize="24sp" />
 
             <Button
@@ -97,9 +109,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_black"
                 android:minWidth="80dp"
                 android:minHeight="80dp"
                 android:text=")"
+                android:textColor="@android:color/background_light"
                 android:textSize="24sp" />
 
             <Button
@@ -107,9 +121,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_black"
                 android:minWidth="80dp"
                 android:minHeight="80dp"
                 android:text="√"
+                android:textColor="@android:color/background_light"
                 android:textSize="24sp" />
 
             <Button
@@ -117,9 +133,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_black"
                 android:minWidth="80dp"
                 android:minHeight="80dp"
                 android:text="+"
+                android:textColor="@android:color/holo_orange_dark"
                 android:textSize="24sp" />
         </LinearLayout>
 
@@ -134,9 +152,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_black"
                 android:minWidth="80dp"
                 android:minHeight="80dp"
                 android:text="7"
+                android:textColor="@android:color/background_light"
                 android:textSize="24sp" />
 
             <Button
@@ -144,9 +164,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_black"
                 android:minWidth="80dp"
                 android:minHeight="80dp"
                 android:text="8"
+                android:textColor="@android:color/background_light"
                 android:textSize="24sp" />
 
             <Button
@@ -154,9 +176,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_black"
                 android:minWidth="80dp"
                 android:minHeight="80dp"
                 android:text="9"
+                android:textColor="@android:color/background_light"
                 android:textSize="24sp" />
 
             <Button
@@ -164,9 +188,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_black"
                 android:minWidth="80dp"
                 android:minHeight="80dp"
                 android:text="-"
+                android:textColor="@android:color/holo_orange_dark"
                 android:textSize="24sp" />
         </LinearLayout>
 
@@ -181,9 +207,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_black"
                 android:minWidth="80dp"
                 android:minHeight="80dp"
                 android:text="4"
+                android:textColor="@android:color/background_light"
                 android:textSize="24sp" />
 
             <Button
@@ -191,9 +219,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_black"
                 android:minWidth="80dp"
                 android:minHeight="80dp"
                 android:text="5"
+                android:textColor="@android:color/background_light"
                 android:textSize="24sp" />
 
             <Button
@@ -201,9 +231,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_black"
                 android:minWidth="80dp"
                 android:minHeight="80dp"
                 android:text="6"
+                android:textColor="@android:color/background_light"
                 android:textSize="24sp" />
 
             <Button
@@ -211,9 +243,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_black"
                 android:minWidth="80dp"
                 android:minHeight="80dp"
                 android:text="x"
+                android:textColor="@android:color/holo_orange_dark"
                 android:textSize="24sp" />
         </LinearLayout>
 
@@ -230,9 +264,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_black"
                 android:minWidth="80dp"
                 android:minHeight="80dp"
                 android:text="1"
+                android:textColor="@android:color/background_light"
                 android:textSize="24sp" />
 
             <Button
@@ -240,9 +276,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_black"
                 android:minWidth="80dp"
                 android:minHeight="80dp"
                 android:text="2"
+                android:textColor="@android:color/background_light"
                 android:textSize="24sp" />
 
             <Button
@@ -250,9 +288,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_black"
                 android:minWidth="80dp"
                 android:minHeight="80dp"
                 android:text="3"
+                android:textColor="@android:color/background_light"
                 android:textSize="24sp" />
 
             <Button
@@ -260,9 +300,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_black"
                 android:minWidth="80dp"
                 android:minHeight="80dp"
                 android:text="/"
+                android:textColor="@android:color/holo_orange_dark"
                 android:textSize="24sp" />
         </LinearLayout>
 
@@ -279,9 +321,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_black"
                 android:minWidth="80dp"
                 android:minHeight="80dp"
                 android:text="."
+                android:textColor="@android:color/background_light"
                 android:textSize="24sp" />
 
             <Button
@@ -289,9 +333,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_black"
                 android:minWidth="80dp"
                 android:minHeight="80dp"
                 android:text="0"
+                android:textColor="@android:color/background_light"
                 android:textSize="24sp" />
 
             <ImageButton
@@ -299,8 +345,9 @@
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_black"
                 android:longClickable="true"
-                android:tint="#000000"
+                android:tint="#FFFFFF"
                 app:srcCompat="@android:drawable/ic_input_delete" />
 
             <Button
@@ -308,9 +355,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_orange"
                 android:minWidth="80dp"
                 android:minHeight="80dp"
                 android:text="="
+                android:textColor="?attr/colorBackgroundFloating"
                 android:textSize="24sp" />
         </LinearLayout>
     </LinearLayout>
